@@ -1,0 +1,29 @@
+/*
+ *	Place your custom CSS styles here
+ *	
+ *  If you get a theme update, do not overwrite this folder or you might loose your custom styles.
+*/
+/* //////////// Footer ///////////////// */
+.mini-logo { display:none; }
+#bnr-bayguardian {
+	width: 80%;
+}
+
+
+/*Styles for screen 320px and higher*/
+@media screen and (min-width: 480px) {
+	#bnr-bayguardian {
+		width: 90%;
+	}
+}
+/*Styles for screen 768px and higher*/
+@media screen and (min-width: 768px) {
+	/* //////////// Header ///////////////// */
+	#logo {
+		width: 239px;
+		margin:10px 0 0 170px !important;
+	}
+	#bnr-bayguardian {
+		width: 325px;
+	}
+}

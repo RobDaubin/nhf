@@ -1,0 +1,75 @@
+screenshot  = screenshot.png
+name        = Sencillo Clean v2.0 - Responsive Premium Drupal 7.x Creative Portfolio Theme
+description = This is the "Cleaner" (and default) version of Sencillo Drupal Premium Theme developed by <a href="http://doublemthemes.com/"><strong>DoubleMThemes</strong></a> for <a href="http://www.themesnap.com/"><strong>ThemeSnap</strong></a>. It includes a lot of <strong><a href="http://www.themesnap.com/premium-drupal-themes/sencillo-3-in-1.html">awesome features</a></strong> you can preview <strong><a href="http://www.themesnap.com/premium-drupal-themes/sencillo-3-in-1.html">here</a></strong>. <br /> <br /><strong>IMPORTANT NOTE</strong>: This theme is part of a Drupal Installation Profile and should not be used independently over an existing Drupal 7.x installation.<br /> <br />For theme FAQs, info & "How to..." visit <a href="http://demos.doublemthemes.com/sencillo/documentation/"><strong>Sencillo Documentation</strong></a> or contact us via <a href="http://support.doublemthemes.com"><strong>our support forums</strong></a>. 
+
+
+core        = 7.x
+base theme  = zen
+
+stylesheets[screen,projection][]        = css/blueprint/screen.css
+stylesheets[all][]        = css/wireframes.css
+stylesheets[all][]        = css/layout-fixed.css
+stylesheets[all][]        = css/page-backgrounds.css
+stylesheets[all][]        = css/tabs.css
+stylesheets[all][]        = css/pages.css
+stylesheets[all][]        = css/blocks.css
+stylesheets[all][]        = css/navigation.css
+stylesheets[all][]        = css/views-styles.css
+stylesheets[all][]        = css/nodes.css
+stylesheets[all][]        = css/comments.css
+stylesheets[all][]        = css/forms.css
+stylesheets[all][]        = css/fields.css
+stylesheets[all][]        = css/responsive-mobile-portrait-layout.css
+stylesheets[print][]      = css/blueprint/print.css
+
+stylesheets[(min-width: 479px)][] = css/responsive-mobile-landscape-layout.css
+stylesheets[(min-width: 767px)][] = css/responsive-tablet-layout.css
+stylesheets[all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)][] = css/responsive-screen-layout.css
+stylesheets[(min-width: 1120px)][] = css/responsive-wide-layout.css
+
+stylesheets-conditional[lte IE 9][all][]  = css/ie9.css
+stylesheets-conditional[lt IE 9][all][]   = css/ie-responsive-mobile-landscape-layout.css
+stylesheets-conditional[lt IE 9][all][]   = css/ie-responsive-tablet-layout.css
+stylesheets-conditional[lt IE 9][all][]   = css/ie-responsive-screen-layout.css
+stylesheets-conditional[lt IE 9][all][]   = css/ie-responsive-wide-layout.css
+stylesheets-conditional[lte IE 8][all][]  = css/blueprint/ie.css
+stylesheets-conditional[lte IE 8][all][]  = css/ie8.css
+stylesheets-conditional[lte IE 7][all][]  = css/ie7.css
+stylesheets-conditional[lte IE 6][all][]  = css/ie6.css
+
+stylesheets[all][]        = custom-css/custom.css
+
+scripts[] = js/jquery-1.7.1.min.js
+scripts[] = js/scrollTo.js
+scripts[] = js/menu.js
+
+regions[help]           = Help
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[navigation]     = Navigation bar
+regions[highlighted]    = Highlighted
+regions[content]        = Content
+regions[header]         = Header
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[zen_breadcrumb]           = yes
+settings[zen_breadcrumb_separator] = ' › '
+settings[zen_breadcrumb_home]      = 1
+settings[zen_breadcrumb_trailing]  = 1
+settings[zen_breadcrumb_title]     = 0
+settings[zen_jump_link_target]     = main-menu
+settings[zen_rebuild_registry]     = 1
+settings[zen_wireframes]           = 0

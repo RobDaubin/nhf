@@ -1,0 +1,28 @@
+/**
+ * @file
+ * CSS targeted specifically for Internet Explorer 8 (and earlier) for Windows.
+ * 
+ */
+
+.view-albums .album-row {
+	background: url("../images/albums-collage-ie.png") no-repeat scroll 5px -2px transparent;    
+}
+
+
+@media(min-width: 479px){
+	.view-albums .album-row {
+		background: none no-repeat scroll 0 0 transparent;    
+	}
+}
+ 
+@media(min-width: 767px){
+	.view-albums .album-row {
+		background: url("../images/albums-collage-ie-tablet.png") no-repeat scroll 4px 3px transparent;    
+	}
+}
+ 
+@media(min-width: 980px){
+.view-albums .album-row {
+    background: url("../images/albums-collage-ie.png") no-repeat scroll 5px -2px transparent;    
+}
+}
